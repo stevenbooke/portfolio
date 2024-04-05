@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   dataabout,
+  dataeducation,
   meta,
   worktimeline,
   skills,
@@ -35,9 +36,21 @@ export const About = () => {
             </div>
           </Col>
         </Row>
+        <Row className="sec_sp">
+          <Col lang="5">
+            <h3 className="color_sec py-4">Education</h3>
+          </Col>
+          <Col lg="7">
+            <div className="dataeducation_ py-4">
+              <h5 className="dataeducation__university">{dataeducation.university}</h5>
+              <p className="dataeducation_degree">{dataeducation.degree}</p>
+              <p className="dataeducation_graduation_year">{dataeducation.graduation_year}</p>
+            </div>
+          </Col>
+        </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Experience</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -81,7 +94,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">Services</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {

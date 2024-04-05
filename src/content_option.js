@@ -1,64 +1,104 @@
-const logotext = "JOHN";
+const logotext = "STEVEN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Steven Booke",
+    description: "I am a highly motivated and versatile software developer with practical experience and knowledge in frontend, backend, AI/ML, web3, cloud computing, containerization, microservices, devops, maths in general, etc. I am seeking an opportunity to leverage my skills in a challenging and dynamic environment to deliver innovative, scalable, and secure software solutions to meet business needs.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Steven Booke",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I love math",
+        third: "I love learning",
+        fourth: "I build things",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "gm",
+    your_img_url: "https://wallpapers.com/images/hd/mr-robot-hood-city-silhouette-artwork-a2ngxex75g6rm078.jpg",
+    // your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "I am a highly motivated and versatile software developer with practical experience and knowledge in frontend, backend, AI/ML, web3, cloud computing, containerization, microservices, devops, maths in general, etc. I am seeking an opportunity to leverage my skills in a challenging and dynamic environment to deliver innovative, scalable, and secure software solutions to meet business needs.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+const dataeducation = {
+    university: "University of California, Santa Barbara (UCSB)",
+    degree: "Bachelor of Science in Computer Science",
+    graduation_year: "2020",
+};
+
+const worktimeline = [
+    {
+        jobtitle: "SDE I",
+        where: "Amazon",
+        date: "Current",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Software Engineer",
+        where: "Brillio",
+        date: "2021-2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Software Developer",
+        where: "Sheesh404 LLC",
+        date: "2021",
     },
 ];
 
-const skills = [{
+const skills = [
+    {
         name: "Python",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Rust",
+        value: 75,
     },
     {
-        name: "Javascript",
+        name: "JavaScript",
         value: 80,
     },
     {
         name: "React",
-        value: 60,
+        value: 80,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Java",
+        value: 90,
+    },
+    {
+        name: "Scala",
+        value: 75,
+    },
+    {
+        name: "AWS",
+        value: 75,
+    },
+    {
+        name: "Anchor",
+        value: 75,
+    },
+    {
+        name: "Git",
+        value: 90,
+    },
+    {
+        name: "NumPy",
+        value: 75,
+    },
+    {
+        name: "SciPy",
+        value: 75,
+    },
+    {
+        name: "Pandas",
+        value: 75,
     },
 ];
 
-const services = [{
+const services = [
+    {
         title: "UI & UX Design",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
@@ -136,9 +176,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "spbooke2@gmail.com",
+    YOUR_FONE: "(408)-431-3363",
+    description: "Hello?",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,14 +187,15 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/stevenbooke",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://linkedin.com/in/stevenbooke",
     twitter: "https://twitter.com",
 };
 export {
     meta,
     dataabout,
+    dataeducation,
     dataportfolio,
     worktimeline,
     skills,
