@@ -58,8 +58,8 @@ export const About = () => {
                 {worktimeline.map((data, i) => {
                   return (
                     <tr key={i}>
-                      <th scope="row">{data.jobtitle}</th>
-                      <td>{data.where}</td>
+                      <th scope="row">{data.where}</th>
+                      <td>{data.jobtitle}</td>
                       <td>{data.date}</td>
                     </tr>
                   );

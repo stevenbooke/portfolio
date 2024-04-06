@@ -1,5 +1,16 @@
 import React from "react";
 import "./style.css";
+// import {
+//   FaGithub,
+//   FaTwitter,
+//   FaFacebookF,
+//   FaLinkedin,
+//   FaYoutube,
+//   FaTwitch,
+//   FaInstagram,
+//   FaDiscord,
+//   FaTw
+// } from "react-icons/fa";
 import {
   FaGithub,
   FaTwitter,
@@ -7,7 +18,13 @@ import {
   FaLinkedin,
   FaYoutube,
   FaTwitch,
-} from "react-icons/fa";
+  FaInstagram,
+  FaDiscord,
+  FaXTwitter,
+  FaTelegram,
+  FaReddit,
+  FaKaggle,
+} from "react-icons/fa6";
 import { socialprofils } from "../../content_option";
 
 export const Socialicons = (params) => {
@@ -18,6 +35,27 @@ export const Socialicons = (params) => {
           <li>
             <a href={socialprofils.twitter}>
               <FaTwitter />
+            </a>
+          </li>
+        )}
+        {socialprofils.twitter && (
+          <li>
+            <a href={socialprofils.twitter}>
+              <FaXTwitter />
+            </a>
+          </li>
+        )}
+        {socialprofils.instagram && (
+          <li>
+            <a href={socialprofils.instagram}>
+              <FaInstagram />
+            </a>
+          </li>
+        )}
+        {socialprofils.discord && (
+          <li>
+            <a href={socialprofils.discord}>
+              <FaDiscord />
             </a>
           </li>
         )}
@@ -56,8 +94,29 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
+        {socialprofils.telegram && (
+          <li>
+            <a href={socialprofils.telegram}>
+              <FaTelegram />
+            </a>
+          </li>
+        )}
+        {socialprofils.reddit && (
+          <li>
+            <a href={socialprofils.reddit}>
+              <FaReddit />
+            </a>
+          </li>
+        )}
+        {socialprofils.kaggle && (
+          <li>
+            <a href={socialprofils.kaggle}>
+              <FaKaggle />
+            </a>
+          </li>
+        )}
       </ul>
-      <p>Follow Me</p>
+      {/* <p>Follow Me</p> */}
     </div>
   );
 };

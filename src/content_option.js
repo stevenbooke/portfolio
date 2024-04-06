@@ -7,13 +7,26 @@ const meta = {
 const introdata = {
     title: "I’m Steven Booke",
     animated: {
-        first: "I love coding",
-        second: "I love math",
-        third: "I love learning",
-        fourth: "I build things",
+        first: "\"The more you know, the more you realize you know nothing\" - Socrates",
+        second: "\"Problems worthy of attack prove their worth by fighting back\" - Paul Erdős",
+        third: "I build things",
+        // fourth: "I love learning",
     },
     description: "gm",
-    your_img_url: "https://wallpapers.com/images/hd/mr-robot-hood-city-silhouette-artwork-a2ngxex75g6rm078.jpg",
+    // MR ROBOT
+    // your_img_url: "https://wallpapers.com/images/hd/mr-robot-hood-city-silhouette-artwork-a2ngxex75g6rm078.jpg",
+    // MIDJOURNEY
+    // your_img_url: "https://runtheprompts.com/wp-content/uploads/2023/08/midjourney-anime-guy-niji-expressive-style.png",
+    // your_img_url: "https://runtheprompts.com/wp-content/uploads/2023/08/midjourney-anime-guy-niji-scenic-style.png",
+    your_img_url: "https://runtheprompts.com/wp-content/uploads/2023/08/midjourney-anime-guy-niji.png",
+    // your_img_url: "https://runtheprompts.com/wp-content/uploads/2024/02/niji-v6-japan-guy-rain.jpg",
+    // your_img_url: "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e6c534d-9694-4770-8cf8-e87618f7c6ca_1024x1024.png",
+    // LOW RESOLUTION
+    // your_img_url: "https://images-ng.pixai.art/images/orig/9a141719-669a-4e5e-b04d-b1888408e8b5",
+    // your_img_url: "https://images-ng.pixai.art/images/orig/1c4985c5-9128-46ec-a7b5-093c42b449d4",
+    // NOT FREE
+    // your_img_url: "https://vecteezy.com/png/22528728-ai-generated-generative-artificial-intelligence-hacker-with-hoodie-red-and-blue-neon-light",
+    // DEFAULT FROM REPO
     // your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
@@ -35,7 +48,7 @@ const worktimeline = [
         date: "Current",
     },
     {
-        jobtitle: "Software Engineer",
+        jobtitle: "Software Developer",
         where: "Brillio",
         date: "2021-2022",
     },
@@ -99,17 +112,17 @@ const skills = [
 
 const services = [
     {
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "web3",
+        description: "I am currently improving my web3 development skills by working on personal projects and contributing to open source software. My most recent open source software contribution is adding Trezor hardware wallet support for the Solana CLI.",
     },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+    // {
+    //     title: "UI & UX Design",
+    //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    // },
+    // {
+    //     title: "Wordpress Design",
+    //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    // },
 ];
 
 const dataportfolio = [{
@@ -191,6 +204,13 @@ const socialprofils = {
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com/in/stevenbooke",
     twitter: "https://twitter.com",
+    instagram: "https://instagram.com",
+    twitch: "https://twitch.com",
+    discord: "https://discord.com",
+    XTwitter: "https://twitter.com",
+    telegram: "https://telegram.com",
+    reddit: "https://reddit.com",
+    kaggle: "https://kaggle.com/stevenbooke"
 };
 export {
     meta,
